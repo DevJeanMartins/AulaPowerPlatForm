@@ -1,0 +1,17 @@
+Este exemplo de gráfico de Gantt do projeto demonstra como mostrar uma lista de tarefas de alto nível em um gráfico de Gantt. É útil principalmente para visualizações de nível superior.
+
+1 Passo 
+    Crie uma lista no shaepoint incluindo as seguintes colunas e configurações
+        Tipo               Nome             Obrigatório    Valores
+        Linha única        Título           Sim
+        Data               ProjectStart     Sim
+        Data               ProjectDue       Sim
+        Data               TaskStart        Sim
+        Data               TaskDue          Sim
+        Número             Progress         Sim
+        Escolha            TaskType         Não            Task, Milestone
+        Pessoas            AssignedToUser   Sim
+        Várias Linhas      TaskDescription  Sim
+2 Passo
+    Copie o código em Jason do arquivo 01_Gantt_CodJason.text depois na lista vá em "Todos os Itens", depois em "Formatar exibição atual" estando selecionado o layout "Lista"
+    clique no "Modo avançado" cole o código copiado, salve e recarregue a página.
